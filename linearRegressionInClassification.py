@@ -1,9 +1,9 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-length = 10
+length = 8
 xTrain = np.arange(length)
-yTrain = np.random.randint(0,2,length)
+yTrain = np.sort(np.random.randint(0,2,length))
 
 w,b = 0,0
 learningRate = 1e-2
